@@ -8,7 +8,7 @@
     <link href = "./css/style.css" rel="stylesheet" />
   </head>
   <body class="bg-dark text-light align-items-center justify-content-center">
-    <div class="container my-5">
+    <div class="container my-5 justify-content-center">
       <h1 class="mb-4 text-center">Fetch a Gif</h1>
       <!-- Stretch: Add search functionality by commenting out the <div> element below -->
 
@@ -17,17 +17,15 @@
           <input type="text" id="search-input" class="form-control" placeholder="Search for a GIF">
         </div>
       </div>
-      
-      <!--Extra Credit-->
-      <div class="d-flex justify-content-center mb-4">
-        <button id="fetch-gif-btn" class="btn btn-warning btn-outline-success">
-          Fetch a GIF
+
+      <div class="d-flex justify-content-center mb-4"></div>
+        <button id="gif-btn" class="btn btn-warning btn-outline-success d-block mx-auto">
+            Fetch a GIF
         </button>
       </div>
 
       <div id="gif-container" class="row">
         <!-- Output your gifs here -->
-         <button id="gif-btn" class="btn btn-warning btn-lg btn-outline-danger">press for GIF</button>
       </div>
     </div>
 
